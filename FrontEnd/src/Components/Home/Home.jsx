@@ -29,7 +29,7 @@ export default function Home(props) {
                     </div>
                 </div>
             </div>
-            <img onClick={() => { window.location.href = "" }} src={HomeImg} alt="" />
+            <img onClick={() => { window.location.href = "https://link-bee-mern.vercel.app/rishijha" }} src={HomeImg} alt="" />
         </main>
     )
 }

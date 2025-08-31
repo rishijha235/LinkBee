@@ -3,5 +3,5 @@
 // "https://linkbee.onrender.com";
 
 
-const backendLink = "https://linkbee-0240.onrender.com";
+const backendLink = "https://linkbee-kn2i.onrender.com";
 export default backendLink; 
