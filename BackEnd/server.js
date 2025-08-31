@@ -25,9 +25,9 @@ app.use(cookieParser());
 
 /* ------------------- FIX: Place CORS at the very top ------------------- */
 app.use(cors({
-  origin:[ "http://localhost:5173" , ""], // frontend URL
+  origin: ["http://localhost:5173", "https://link-bee-eight.vercel.app"], // frontend URL
   credentials: true
-})); 
+}));
 
 // Handle preflight requests explicitly
 app.options("*", cors({
